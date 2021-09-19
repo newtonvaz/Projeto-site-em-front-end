@@ -29,12 +29,37 @@ nav{
 
 }
 
-.principal{
+#principal{
+    text-align: center;
+    background-color: coral;
+    height: 200px;
+    
+}
+
+#bloco{
+    text-align: center;
+    font-style: oblique;
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+h3{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: oblique;
+}
+
+h1{
+    color: darkcyan;
+    font-size: 30px;
+}
+
+h2{
+    font-size: 20px;
     text-align: center;
 }
 
 #profcardoso{
-    font-style: oblique;
-    font-size: 14px;
-    margin-top: -20px;
+    font-size: 15px;
+
 }

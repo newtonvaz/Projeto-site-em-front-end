@@ -84,6 +84,7 @@ grid-template-areas: "imagem texto";
 
 .imagem{
     text-align: center;
+    margin-top: 10px;
 }
 
 .texto{

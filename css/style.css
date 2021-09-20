@@ -1,4 +1,9 @@
 
+nav{
+    background-color: maroon;
+    color: #ffff;
+    padding: 20px;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -15,6 +20,7 @@ nav{
 #atendimento{
     text-align: right;
     padding-right: 180px;
+    color: #C70039;
 }
 
 #whats{
@@ -27,12 +33,13 @@ nav{
 #telefone{
     text-align: right;
     margin-top: -25px;
+    color: #C70039;
 
 }
 
 #imgtopo{
     text-align: center;
-    background-color: khaki;
+    background-color: #C70039;
     height: 230px;
 }
 
@@ -41,12 +48,67 @@ nav{
 
 }
 
-h1{
-    color: #C70039;
-}
-
 #professor{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: -20px;
     color: #C70039;
+}
+
+h1{
+    text-align: center;
+    color: #C70039;
+
+
+}
+
+#curso{
+    color: #FFF;
+    text-align: center;
+    background-color: #C70039;
+    padding: 5px;
+    
+}
+
+#nestecurso{
+    text-align: center;
+    margin-top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #C70039;
+}
+
+#grade{
+display: grid;
+grid-template-areas: "imagem texto";
+}
+
+.imagem{
+    text-align: center;
+}
+
+.texto{
+    text-align: justify;
+    padding-left: 10px;
+}
+
+#wagner{
+    border-radius: 50%;
+}
+
+#professor{
+    background-color: #C70039;
+    color: #fff;
+    text-align: center;
+    padding: 4px;
+    font-size: 20px;
+}
+
+#presentation{
+    color: #C70039;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #fff;
+    padding: 10px;
+    border-width: 2px;
+    font-size: 30px;
 }

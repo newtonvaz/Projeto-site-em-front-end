@@ -113,3 +113,30 @@ grid-template-areas: "imagem texto";
     border-width: 2px;
     font-size: 30px;
 }
+
+footer{
+    background-color: maroon;
+    height: 100px;
+    
+}
+
+#rodape{
+    display: grid;
+    grid-template-areas: "texto_rodape texto_rodape";
+    grid-template-columns: 1fr 12fr;
+    
+}
+
+#texto_rodape{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    padding-top: 8px;
+
+}
+
+#botao{
+    padding: 10px;
+}
+
+

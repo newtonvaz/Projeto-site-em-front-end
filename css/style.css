@@ -3,11 +3,13 @@ nav{
     background-color: maroon;
     color: #ffff;
     padding: 60px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 hr{
     margin: -80px;
-    margin-bottom: 200px;
+    margin-bottom: 35px;
     margin-left: 500px;
     margin-right: 500px;
 }
@@ -21,12 +23,6 @@ body{
     font-size: 16px;
     padding-left: 1%;
     background-color: #F5C2C2;
-
-}
-
-nav{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -44,7 +40,12 @@ nav{
 #imgtopo{
     text-align: center;
     background-color: #C70039;
-    height: 230px;
+    height: 300px;
+    margin-top: 170px;
+}
+
+#topo{
+    margin-top: 50px;
 }
 
 .treinamento{

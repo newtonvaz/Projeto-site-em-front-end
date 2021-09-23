@@ -119,31 +119,43 @@ grid-template-areas: "imagem texto";
     font-size: 30px;
 }
 
-footer{
-    background-color: maroon;
-    height: 100px;
-    
-}
-
-#rodape{
+#grid_footer{
     display: grid;
-    grid-template-areas: "texto_rodape texto_rodape";
-    grid-template-columns: 1fr 12fr;
+    grid-template-areas: "marco marco2";
+    grid-template-columns: 20% 80%;
+    background-color: #C70039;
+    height: 100px;
+    text-decoration: none;
     
 }
 
-#texto_rodape{
-    color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
-    padding: 25px;
+.marco{
+   position: relative;
+   top: 10px;
+   left: 20px;
 
 }
 
-#botao{
-    padding: 10px;
+.marco2{
+  color: white;
+  text-decoration: none;
+  color: #FFF;
+  text-align: left;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+
+
+}
+ 
+.link{
+    text-decoration: none;
+    color: #FFF;
 
 
 }
 
-
+.fone2{
+    margin-top: 30%;  
+}

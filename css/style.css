@@ -21,11 +21,19 @@ hr{
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    padding-left: 1%;
+    margin: 0;
+    padding: 0;
     background-color: #F5C2C2;
 
 }
 
+.texto_curso{
+    font-family: verdana;
+    font-size: 14px;
+    margin-left: 30px;
+    line-height: 22px;
+
+}
 
 .atend{
     text-align: right;
@@ -85,6 +93,7 @@ h1{
 #grade{
 display: grid;
 grid-template-areas: "imagem texto";
+grid-template-columns: 270px;
 }
 
 .imagem{
@@ -93,8 +102,7 @@ grid-template-areas: "imagem texto";
 }
 
 .texto{
-    text-align: justify;
-    padding-left: 10px;
+    
 }
 
 #wagner{
@@ -120,19 +128,27 @@ grid-template-areas: "imagem texto";
 }
 
 footer{
-    background-color: #C70039;
+    background: #C70039;
+    margin: 0px;
+    padding: 0px;
     height: 150px;
-    }
 
 }
+
+footer{
+    display: grid;
+    grid-template-areas: "logo-tec texto-tec";
+}
+
 
 .logo-tec{
-   margin-top: 300px;
-   align-items: center; 
+ align-items: center;
+ vertical-align: center;
+ margin-left: 50px;
 
 }
 
-.marco2{
+.texto-tec{
   color: white;
   text-decoration: none;
   color: #FFF;

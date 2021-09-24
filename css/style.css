@@ -101,10 +101,6 @@ grid-template-columns: 270px;
     margin-top: 10px;
 }
 
-.texto{
-    
-}
-
 #wagner{
     border-radius: 50%;
 }
@@ -186,4 +182,15 @@ footer{
 
 .whats-bco{
     margin-bottom: -3px;
+}
+
+#botao{
+    background: white;
+    color: #C70039;
+    height: 50px;
+    border-color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px; 
+    font-weight: 500;
+    
 }

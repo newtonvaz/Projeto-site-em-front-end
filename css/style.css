@@ -119,20 +119,16 @@ grid-template-areas: "imagem texto";
     font-size: 30px;
 }
 
-#grid_footer{
-    display: grid;
-    grid-template-areas: "marco marco2";
-    grid-template-columns: 20% 80%;
+footer{
     background-color: #C70039;
-    height: 100px;
-    text-decoration: none;
-    
+    height: 150px;
+    }
+
 }
 
-.marco{
-   position: relative;
-   top: 10px;
-   left: 20px;
+.logo-tec{
+   margin-top: 300px;
+   align-items: center;
 
 }
 

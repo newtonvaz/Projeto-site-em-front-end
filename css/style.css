@@ -127,24 +127,21 @@ grid-template-columns: 270px;
     font-size: 30px;
 }
 
-footer{
-    background: #C70039;
-    margin: 0px;
-    padding: 0px;
-    height: 150px;
 
-}
 
 footer{
     display: grid;
     grid-template-areas: "logo-tec texto-tec";
+    background: #C70039;
+    height: 150px;
+
 }
 
 
 .logo-tec{
  align-items: center;
  vertical-align: center;
- margin-left: 50px;
+ margin: auto;
 
 }
 

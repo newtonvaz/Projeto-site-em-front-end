@@ -203,3 +203,16 @@ footer{
     font-weight: 500;
     
 }
+
+.color-nav a:link, a:visited, a:active{
+    text-decoration: none;
+    padding: 10px;
+    margin: center;
+
+}
+
+.color-nav a:hover{
+    background-color: #A21F1F;
+    color: #F7C6C2;
+    
+}

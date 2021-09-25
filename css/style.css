@@ -214,7 +214,10 @@ footer{
 
 
 .color-nav a:hover{
-    background-color: #A21F1F;
-    color: #F7C6C2;
+    color: #F5C2C2;
+    border-color: #A21F1F;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10%;
     
 }

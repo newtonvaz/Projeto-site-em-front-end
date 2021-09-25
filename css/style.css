@@ -215,9 +215,9 @@ footer{
 
 .color-nav a:hover{
     color: #F5C2C2;
-    border-color: #A21F1F;
+    border-color: white;
     border-width: 2px;
     border-style: solid;
     border-radius: 10%;
-    
+
 }

@@ -206,18 +206,19 @@ footer{
 
 .color-nav a:link, a:visited, a:active{
     text-decoration: none;
-    padding: 10px;
     margin: center;
+    padding: 10px;
 
 }
 
 
 
 .color-nav a:hover{
-    color: #F5C2C2;
     border-color: white;
-    border-width: 2px;
     border-style: solid;
-    border-radius: 10%;
+    padding: 10px;
+    border-width: 1px;
+
+
 
 }
